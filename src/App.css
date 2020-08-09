@@ -1,27 +1,77 @@
 
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('./Image/todo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
   .App {
     font-family: sans-serif;
     padding: 0 36px;
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
   }
+  
 
   h1 {
     text-align: center;
     font-size: 3rem;
+    color: #217C7E;
+    backdrop-filter: brightness(50%);
   }
 
   .item {
     background-color: dodgerblue;
     width: 100%;
-    text-align: center;
+    height: 30px;
     margin: 4px 0;
-    padding-left: 8px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .item.completed {
     background-color: #87CEEB;
     text-decoration: line-through;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  input, textarea {
+    width: 200px;
+    padding: 15px 22px;
+    margin: 10px 0;
+    box-sizing: border-box;  
+    border: 1px solid;
+    border-radius: 4px;
+
+  }
+
+  button {
+    width:100px;
+    padding: 15px 22px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 4px;
+  }
+
+  .clear-btn {
+    background-color: #9A3334;
+  }
+
+  .add {
+    background-color: #F3EFE0;
+  }
+
+  
   
