@@ -10,7 +10,7 @@ const todoData = [
     completed: false
   },
   {
-    task: 'Bake Cookies',
+    task: 'Feeding the baby',
     id: 1528817084358,
     completed: false
   },
@@ -89,6 +89,8 @@ class App extends React.Component {
         toggleItem={this.toggleItem}
         clearItem={this.clearItem}
         />
+
+        
       </div>
     );
   }
